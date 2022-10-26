@@ -1,0 +1,63 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)),url('https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/india/Indian-Peafowl.jpg?crop=0%2C0%2C3960%2C1237&wid=1600&hei=500&scl=2.475');
+    background-size: cover;
+}
+.loginTitle{
+    font-size: 50px;
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm>label{
+    margin: 10px 0;
+}
+
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.RegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+   .login{
+    width: 211vw;
+    height: 207vh;
+   }
+   .RegisterButton{
+       display: none;
+   }
+  }
