@@ -42,6 +42,8 @@
     }
     .headerTitlesSm{display: none;}
     .headerImg{
-        width: 217.7vw;
+        width: 213vw;
+     
+        background-size: contain;
     }
 }
