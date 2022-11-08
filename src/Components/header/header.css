@@ -30,8 +30,23 @@
     object-fit: cover;
 
 }
-
-@media only screen  and (max-width: 600px) {
+@media only screen  and (max-width: 380px) {
+    .headerImg{
+        width: 226vw;
+        background-size: contain;
+    }
+    .header{
+       
+        width: 212vw;
+    }
+    .headerTitlesLg{
+        top: 20%;
+        font-size: 141px;
+        margin-left: 60px;
+    }
+    .headerTitlesSm{display: none;}
+}
+@media only screen and (min-width: 400px)  and (max-width: 600px) {
     .header{
        
         width: 212vw;
